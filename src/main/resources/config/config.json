@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://automationtesting.co.uk/",
+  "wait": 30,
+  "browserOptions": [
+    {
+      "browserName": "chrome",
+      "options": [
+        "--disable-extensions",
+        "--incognito",
+        "--start-maximized",
+        "--disable-popup-blocking"
+      ]
+    },
+    {
+      "browserName": "firefox",
+      "options": [
+        "-private",
+        "-disable-web-security"
+      ]
+    }
+  ]
+}
